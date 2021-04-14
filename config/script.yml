@@ -1,0 +1,5 @@
+gridly-url: https://api.gridly.com
+max-fetch-retry: 3 # The number of retries when fetching request is failed
+log:
+    level: INFO
+    mode: CONSOLE # Valid values are CONSOLE and FILE. File app.log is under log folder

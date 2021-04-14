@@ -1,0 +1,27 @@
+{
+  "texts": {
+    "group": {
+      "@name": "MMO",
+      "group": [
+        {
+          "@name": "common",
+          "group": [
+            {
+              "@name": "Abilities",
+              "group": [
+                {
+                  "@name": "event_invasion_tasks_info",
+                  "@text": "Způsob poškození vetřelcům a dostaneš body za osobní příspěvek. Každý bod poškození ti přinese jeden bod osobního přispění. Při poražení vetřelce bude počet bodů získaných v bitvě zvýšen o 50 %."
+                },
+                {
+                  "@name": "event_invasion_tasks_info",
+                  "@text": "Způsob poškození vetřelcům a dostaneš body za osobní příspěvek. Každý bod poškození ti přinese jeden bod osobního přispění. Při poražení vetřelce bude počet bodů získaných v bitvě zvýšen o 50 %."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

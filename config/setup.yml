@@ -1,0 +1,33 @@
+api-key: YOUR_API_KEY
+
+# Configuration for import text
+import:
+    data-directory: games # Directory to store files such as strings.cs.xml, strings.en.xml etc for importing text data
+
+    # "Main" is default grid to add data
+    grids:
+        -
+            name: Main # Name of grid in gridly
+            view-id: YOUR_VIEW_ID # viewId to import.
+            default: true # Default grid to import. Only one grid should set as default
+
+    files:
+        mappings: # configure mapping bwt file and target column to import
+            -
+                file-name: data.json  # file in data-directory
+                column-id: column1 # target column-id match with file-name
+#            -
+
+# Configuration to export file
+export:
+    directory: export # Directory to export files
+    grids:
+        -
+            name: Main # Name of grid in gridly
+            view-id: YOUR_VIEW_ID # viewId to export
+    files:
+        mappings:
+            -
+                file-name: strings.json # File name to export for below columnId
+                column-id: column1 # ColumnId to export data
+#            -
